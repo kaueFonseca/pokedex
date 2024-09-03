@@ -1,55 +1,48 @@
-# React + Vite
-
+React + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
+@vitejs/plugin-react uses Babel for Fast Refresh
+@vitejs/plugin-react-swc uses SWC for Fast Refresh
 POKEDEX-DEV QUEST
-descrição
-Este projeto é uma aplicação de API. Ela foi desenvolvida para acessar uma lista de pokémons e suas características.
+Description
+This project is an API application. It was developed to access a list of Pokémon and their characteristics.
 
-Funcionalidades
-A aplicação inclui as seguintes funcionalidades:
+Features
+The application includes the following features:
 
-Listagem de Pokémons: A aplicação exibe uma lista de Pokémons, mostrando nome e imagem de cada um.
-Pesquisa de Pokémons: O usuário pode pesquisar por um Pokémon específico pelo nome.
-Tema Escuro e Claro: A aplicação permite ao usuário alternar entre tema escuro e claro.
+Pokémon Listing: The application displays a list of Pokémon, showing each one’s name and image.
+Pokémon Search: Users can search for a specific Pokémon by name.
+Dark and Light Theme: The application allows users to switch between dark and light themes.
+Tools Used
+React: Chosen for its flexibility and ease of creating dynamic interfaces and reusable components.
+styled-components: Used to facilitate component styling with support for dark and light themes.
+react-router-dom: Implemented to manage navigation between the application pages.
+Pokémon API: Selected as the data source to provide detailed information about each Pokémon.
+Planning and Execution Decisions
+During the development process, several important decisions were made:
 
-Ferramentas Utilizadas
-React: Escolhido por sua flexibilidade e pela facilidade em criar interfaces dinâmicas e componentes reutilizáveis.
-
-styled-components: Utilizado para facilitar a estilização dos componentes com suporte ao tema escuro e claro.
-
-react-router-dom: Implementado para gerenciar a navegação entre as páginas da aplicação.
-
-API de Pokémon: Selecionada como fonte de dados para fornecer informações detalhadas sobre cada Pokémon.
-
-Decisões de Planejamento e Execução
-Durante o desenvolvimento, algumas decisões importantes foram tomadas:
-
-Tema Escuro e Claro: A implementação de um tema escuro e claro foi feita para melhorar a experiência do usuário, considerando a popularidade dessa funcionalidade em interfaces modernas.
-Carregamento Dinâmico de Pokémons: O uso de carregamento dinâmico foi escolhido para melhorar o desempenho da aplicação e oferecer uma melhor experiência ao usuário.
-Organização dos Componentes: Os componentes foram organizados de forma modular para facilitar a manutenção e a escalabilidade do projeto.
-
-Como Rodar o Projeto
+Dark and Light Theme: Implementing a dark and light theme was done to enhance user experience, considering the popularity of this feature in modern interfaces.
+Dynamic Pokémon Loading: Dynamic loading was chosen to improve application performance and provide a better user experience.
+Component Organization: Components were organized modularly to facilitate project maintenance and scalability.
+How to Run the Project
+To run this application on your computer, follow these steps:
 Para executar esta aplicação em seu computador, siga os seguintes passos:
 
-1- Clone o repositório: 
+1- Clone the repository: 
 git clone (https://github.com/kaueFonseca/pokedex.git)
 
-2-Navegue até o diretório do projeto:
-cd [NOME_DO_DIRETORIO]
+2-Navigate to the project directory:
+cd [DIRECTORY_NAME]
 
-3- Instale as dependências:
+3- Install the dependencies:
 npm install 
 
-4-Execute a aplicação:
+4-Run the application:
 npm start/ npm run dev(vite)
 
-5- Abra seu navegador e acesse:
+5- Open your browser and go to:
 http://localhost:3000
 
 
